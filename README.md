@@ -60,7 +60,7 @@ node lab.mjs status
 
 | 輪 | 做什麼 | 開始前的指令 |
 |---|---|---|
-| 第 1 輪 | 聊天式 AI（一問一答）：把任務貼給聊天式的 AI，自己動手把它的回答放進 `site/` | 不用 |
+| 第 1 輪 | 聊天式 AI（一問一答）：把 `TASK.md` 的任務貼給聊天式的 AI，看它答什麼，列出「要把這個答案放進專案，你自己還要做哪些事」（不用真的做進去） | 不用 |
 | 第 2 輪 | Agent，沒有任何規矩：在 Claude Code 貼上任務 | `node lab.mjs reset` |
 | 第 3 輪 | 加上 Rules：在 `AGENTS.md` 寫三條自己的規則，再做一次 | `node lab.mjs reset`、`node lab.mjs on rules` |
 | 第 4 輪 | 加上 Skill：用 `/new-ticket` 加任務的文字，先開票再做 | `node lab.mjs reset`、`node lab.mjs on skill` |
